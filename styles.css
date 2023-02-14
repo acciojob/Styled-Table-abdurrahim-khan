@@ -14,7 +14,13 @@ td {
 	height: 35px;
 	padding: 10px;
 }
-tr>td:first-child{
+th {
+	width: 100px;
+	height: 35px;
+	padding: 10px;
+	text-align: left;
+}
+tr>td:first-child, tr>th:first-child{
 	width:250px;
 }
 tbody tr:nth-child(odd) td:first-child{
