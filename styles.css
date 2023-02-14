@@ -1,48 +1,23 @@
-/* your code */
-thead {
-    background-color: blue;
-}
-tr td:first-child {
-    width: 150px;
-    border-left: solid 0.5px lightgrey;
-}
-tr td:last-child {
-    border-right: solid 0.5px lightgrey;
-}
-thead {
-    border-top: solid 0.5px lightgrey;
-}
-.first td
-{
-    border-top: solid 0.5px lightgrey;
-}
-.last td {
-    border-bottom: solid 0.5px lightgrey;
-}
 
-table {
-    border-collapse: collapse;
+table 
+{
+	border: 0.5px solid lightgray;
+	border-radius: 10px;
+	border-collapse: collapse;
 }
-td {
-    height: 30px;
-    width: 70px;
+thead {
+	background-color: blue;
 }
 table tr:nth-child(even) {
-    background-color: lightgray;
+	background-color: lightgray;
 }
-.first td:first-child{
-    border-top-left-radius: 15px;
-	
+td {
+	width: 100px;
+	height: 35px;
 }
-.first td:last-child{
-    border-top-right-radius: 15px;
-	
+tr>td:first-child{
+	width:250px;
 }
-.last td:first-child{
-    border-bottom-left-radius: 15px;
-	
-}
-.last td:last-child{
-    border-bottom-right-radius: 15px;
-	
-}
+
+
+
